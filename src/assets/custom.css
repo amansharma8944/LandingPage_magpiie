@@ -1,0 +1,98 @@
+/* .gradient_bg{
+    background-image: radial-gradient(farthest-side at 60% 55%, rgba(140, 32, 248, 0.5), white);
+    } */
+
+.gradient_bg {
+  /* background: radial-gradient(ellipse at 60.51% -51.73%, rgb(126 33 219 / 37%) -118%, rgba(140, 32, 248, 0) 100%) */
+  /* background: radial-gradient(ellipse at center top, rgb(56 14 98 / 52%) -124%, rgba(140, 32, 248, 0) 100%); */
+  background: radial-gradient(
+    ellipse at center top,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(93 39 147 / 30%) 0%,
+    rgb(31 21 41 / 15%) 90%
+  );
+}
+
+.bg_customcss_nav {
+  background-color: rgb(255, 255, 255, 0.7);
+  border: 2px solid white;
+}
+
+.colorCustomFirstPage {
+  color: rgba(89, 75, 113, 1);
+}
+
+.bgSecondPage {
+  background: rgba(17, 10, 28, 1);
+}
+.customForSecondpageButtonAtfirstDiv {
+  width: 493px;
+  height: 64px;
+  background: rgba(250, 250, 250, 0.2);
+
+  display: flex;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  gap: 32px; /* Note: gap works for flex or grid containers */
+  border-radius: 16px;
+
+  /* opacity: 0; */
+}
+
+.buttonInthesecondDiv {
+  width: 149px;
+  height: 48px;
+  padding: 8px 0 0 0;
+  gap: 8px; /* Note: gap works for flex or grid containers */
+  border-radius: 8px;
+  background-color: rgba(127, 106, 160, 1);
+}
+
+.CustomClassforh1inseconddiv {
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  width: 59%;
+}
+
+.customforbuttonsecondpageseconddiv {
+  background-color: rgba(80, 82, 101, 1);
+  border: 1px dashed white;
+  padding: 20px 36px 20px 36px;
+  border-radius: 300px;
+  margin-top: 35px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.customcssfortextthirdpage {
+  /* background-color: linear-gradient(115.01deg, #E17E60 0%, #9152FC 100%); */
+  background: linear-gradient(115.01deg, #e17e60 0%, #9152fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.customclassforcardThirdPage {
+  width: 806.48px;
+  height: 324.74px;
+  background: rgba(22, 17, 34, 1);
+  /* position: absolute; Use absolute or relative positioning if you need to position it specifically */
+  /* top: 0.83px; */
+  /* left: 101.76px; */
+  padding: 13.44px 13.44px 3.06px 13.44px;
+  gap: 0px; /* Only applicable if you are using a flex or grid container */
+  border-radius: 20px 0px 0px 0px;
+  border-top: 1px solid; /* Added solid as a default border style */
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.customclassForAbsolute {
+  background: linear-gradient(132.37deg, #e17e60 30%, #0a0a10 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

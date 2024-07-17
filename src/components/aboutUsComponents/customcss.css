@@ -1,0 +1,68 @@
+.bglineargradient{
+    background:linear-gradient(97.59deg,#FFFFFF 45%,#0A0A10 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.imagebg{
+    background: url("public/secondpage/aboutus/team.svg");
+}
+
+
+.pafterhover{
+    opacity: 0; /* initially hidden */
+  transition: opacity 0.3s;
+  transition-delay: 0.1s; /* delay the opacity transition by 1 second */
+
+}
+
+.outer-div:hover .pafterhover {
+    opacity: 1; /* make content visible */
+  }
+
+
+  .outer-div:not(:hover) .pafterhover {
+    opacity: 0; /* hide content immediately */
+    transition-delay: 0s; /* no delay on hover out */
+  }
+
+.outer-div {
+    position: relative;
+    width: 200px; /* adjust as needed */
+    height: 200px; /* adjust as needed */
+    background-color: lightgray; /* adjust as needed */
+  }
+  
+  .inner-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* initial height */
+    /* background-color: blue; adjust as needed */
+    transition: height 0.3s;
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent background */
+    
+    backdrop-filter: blur(10px); /* blur effect */
+  
+  }
+  
+  .outer-div:hover {
+      .inner-div{ height: 50vh; /* new height on hover */
+      }
+    
+  }
+
+
+
+
+
+
+  .letusknowclass{
+    background: linear-gradient(115.01deg, #E17E60 0%, #9152FC 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  }
